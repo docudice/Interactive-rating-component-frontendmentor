@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+
+  <!-- Rating state start -->
+  
+<section id="noteSection">
+  <div id="Star">
+  <img src="images/icon-star.svg">
+  </div>
+  <h1 id="title">
+  How did we do?
+</h1>
+<h2 id="textContent">
+  Please let us know how we did with your support<br> request. All feedback is appreciated 
+  to help us<br> improve our offering!
+</h2>
+<form>
+<input type="radio" name="StarCheck" id="One">
+<label for="One" id="OneDisplay" class="labelForm"><div>1</div></label>
+<input type="radio" name="StarCheck" id="Two">
+<label for="Two" id="OneDisplay" class="labelForm"><div>2</div></label>
+<input type="radio" name="StarCheck" id="Three">
+<label for="Three" id="OneDisplay" class="labelForm"><div>3</div></label>
+<input type="radio" name="StarCheck" id="Foor">
+<label for="Foor" id="OneDisplay" class="labelForm"><div>4</div></label>
+<input type="radio" name="StarCheck" id="Five">
+<label for="Five" id="OneDisplay" class="labelForm"><div>5</div></label>
+</form>
+<div id="buttonSubmit" onclick="changeSlide()">
+  SUBMIT
+</div>
+
+</section>
+  
+
+  <!-- Thank you state end -->
+
+   <script src="app.js"></script>
+</body>
+</html>
